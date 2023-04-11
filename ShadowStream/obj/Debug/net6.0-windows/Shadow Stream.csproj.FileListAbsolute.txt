@@ -1,0 +1,8 @@
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\obj\Debug\net6.0-windows\Shadow Stream.csproj.AssemblyReference.cache
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\obj\Debug\net6.0-windows\webcam.Form1.resources
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\obj\Debug\net6.0-windows\Shadow_Stream.Properties.Resources.resources
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\obj\Debug\net6.0-windows\Shadow Stream.csproj.GenerateResource.cache
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\obj\Debug\net6.0-windows\Shadow Stream.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\obj\Debug\net6.0-windows\Shadow Stream.AssemblyInfoInputs.cache
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\obj\Debug\net6.0-windows\Shadow Stream.AssemblyInfo.cs
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\obj\Debug\net6.0-windows\Shadow Stream.csproj.CoreCompileInputs.cache

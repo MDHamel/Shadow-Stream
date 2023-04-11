@@ -1,0 +1,26 @@
+# .gitignore for a Windows Form project in Visual Studio
+
+# Ignore bin and obj directories
+/bin/
+/obj/
+
+# Ignore compiled executable and dynamic link library files
+*.exe
+*.dll
+
+# Ignore program database files
+*.pdb
+
+# Ignore solution user options file
+*.suo
+
+# Ignore user-specific project files
+*.user
+*.csproj.user
+
+# Ignore Visual Studio user-specific settings directory
+.vs/
+
+# Ignore temporary files
+*.log
+*.tmp

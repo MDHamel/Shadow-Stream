@@ -1,0 +1,67 @@
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\bin\Debug\net6.0-windows\webcam.exe
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\bin\Debug\net6.0-windows\webcam.deps.json
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\bin\Debug\net6.0-windows\webcam.runtimeconfig.json
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\bin\Debug\net6.0-windows\webcam.dll
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\bin\Debug\net6.0-windows\webcam.pdb
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\bin\Debug\net6.0-windows\NAudio.dll
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\bin\Debug\net6.0-windows\NAudio.Asio.dll
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\bin\Debug\net6.0-windows\NAudio.Core.dll
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\bin\Debug\net6.0-windows\NAudio.Midi.dll
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\bin\Debug\net6.0-windows\NAudio.Wasapi.dll
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\bin\Debug\net6.0-windows\NAudio.WinForms.dll
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\bin\Debug\net6.0-windows\NAudio.WinMM.dll
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\bin\Debug\net6.0-windows\OpenCvSharp.dll
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\bin\Debug\net6.0-windows\OpenCvSharp.Extensions.dll
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\bin\Debug\net6.0-windows\runtimes\win-x64\native\OpenCvSharpExtern.dll
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\bin\Debug\net6.0-windows\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\bin\Debug\net6.0-windows\runtimes\win-x86\native\OpenCvSharpExtern.dll
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\bin\Debug\net6.0-windows\runtimes\win-x86\native\opencv_videoio_ffmpeg460.dll
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\obj\Debug\net6.0-windows\webcam.csproj.AssemblyReference.cache
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\obj\Debug\net6.0-windows\webcam.Form1.resources
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\obj\Debug\net6.0-windows\webcam.Properties.Resources.resources
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\obj\Debug\net6.0-windows\webcam.csproj.GenerateResource.cache
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\obj\Debug\net6.0-windows\webcam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\obj\Debug\net6.0-windows\webcam.AssemblyInfoInputs.cache
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\obj\Debug\net6.0-windows\webcam.AssemblyInfo.cs
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\obj\Debug\net6.0-windows\webcam.csproj.CoreCompileInputs.cache
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\obj\Debug\net6.0-windows\webcam.csproj.CopyComplete
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\obj\Debug\net6.0-windows\webcam.dll
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\obj\Debug\net6.0-windows\refint\webcam.dll
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\obj\Debug\net6.0-windows\webcam.pdb
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\obj\Debug\net6.0-windows\webcam.genruntimeconfig.cache
+C:\Users\thema_a837vdn\source\repos\webcam\webcam\obj\Debug\net6.0-windows\ref\webcam.dll
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\obj\Debug\net6.0-windows\webcam.csproj.AssemblyReference.cache
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\obj\Debug\net6.0-windows\webcam.Form1.resources
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\obj\Debug\net6.0-windows\webcam.Properties.Resources.resources
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\obj\Debug\net6.0-windows\webcam.csproj.GenerateResource.cache
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\obj\Debug\net6.0-windows\webcam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\obj\Debug\net6.0-windows\webcam.AssemblyInfoInputs.cache
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\obj\Debug\net6.0-windows\webcam.AssemblyInfo.cs
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\obj\Debug\net6.0-windows\webcam.csproj.CoreCompileInputs.cache
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\obj\Debug\net6.0-windows\webcam.dll
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\obj\Debug\net6.0-windows\refint\webcam.dll
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\obj\Debug\net6.0-windows\webcam.pdb
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\bin\Debug\net6.0-windows\webcam.exe
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\bin\Debug\net6.0-windows\webcam.deps.json
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\bin\Debug\net6.0-windows\webcam.runtimeconfig.json
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\bin\Debug\net6.0-windows\webcam.dll
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\bin\Debug\net6.0-windows\webcam.pdb
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\bin\Debug\net6.0-windows\NAudio.dll
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\bin\Debug\net6.0-windows\NAudio.Asio.dll
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\bin\Debug\net6.0-windows\NAudio.Core.dll
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\bin\Debug\net6.0-windows\NAudio.Midi.dll
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\bin\Debug\net6.0-windows\NAudio.Wasapi.dll
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\bin\Debug\net6.0-windows\NAudio.WinForms.dll
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\bin\Debug\net6.0-windows\NAudio.WinMM.dll
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\bin\Debug\net6.0-windows\OpenCvSharp.dll
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\bin\Debug\net6.0-windows\OpenCvSharp.Extensions.dll
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\bin\Debug\net6.0-windows\runtimes\win-x64\native\OpenCvSharpExtern.dll
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\bin\Debug\net6.0-windows\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\bin\Debug\net6.0-windows\runtimes\win-x86\native\OpenCvSharpExtern.dll
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\bin\Debug\net6.0-windows\runtimes\win-x86\native\opencv_videoio_ffmpeg460.dll
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\obj\Debug\net6.0-windows\webcam.csproj.CopyComplete
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\obj\Debug\net6.0-windows\webcam.genruntimeconfig.cache
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\obj\Debug\net6.0-windows\ref\webcam.dll
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\obj\Debug\net6.0-windows\webcam.settings.resources
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\bin\Debug\net6.0-windows\DirectShowLib.dll
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\webcam\bin\Debug\net6.0-windows\webcam.dll.config
