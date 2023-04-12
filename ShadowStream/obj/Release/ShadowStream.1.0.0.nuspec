@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ShadowStream</id>
+    <version>1.0.0</version>
+    <authors>ShadowStream</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="DirectShowLib" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="DiscordRichPresence" version="1.1.3.18" exclude="Build,Analyzers" />
+        <dependency id="NAudio" version="2.1.0" exclude="Build,Analyzers" />
+        <dependency id="NAudio.Asio" version="2.1.0" exclude="Build,Analyzers" />
+        <dependency id="OpenCvSharp4" version="4.6.0.20220608" exclude="Build,Analyzers" />
+        <dependency id="OpenCvSharp4.Extensions" version="4.6.0.20220608" exclude="Build,Analyzers" />
+        <dependency id="OpenCvSharp4.Windows" version="4.6.0.20220608" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\bin\Release\net6.0-windows\ShadowStream.runtimeconfig.json" target="lib\net6.0-windows7.0\ShadowStream.runtimeconfig.json" />
+    <file src="C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\bin\Release\net6.0-windows\ShadowStream.dll" target="lib\net6.0-windows7.0\ShadowStream.dll" />
+  </files>
+</package>

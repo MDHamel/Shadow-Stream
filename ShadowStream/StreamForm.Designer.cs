@@ -28,6 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StreamForm));
 			pic = new PictureBox();
 			((System.ComponentModel.ISupportInitialize)pic).BeginInit();
 			SuspendLayout();
@@ -44,7 +45,7 @@
 			pic.TabStop = false;
 			pic.MouseMove += pic_MouseMove;
 			// 
-			// Form1
+			// StreamForm
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
@@ -52,7 +53,8 @@
 			BackColor = SystemColors.ActiveCaptionText;
 			ClientSize = new Size(438, 206);
 			Controls.Add(pic);
-			Name = "Form1";
+			Icon = (Icon)resources.GetObject("$this.Icon");
+			Name = "StreamForm";
 			Text = "Shadow Stream";
 			FormClosing += Form1_FormClosing;
 			Load += Form1_Load;

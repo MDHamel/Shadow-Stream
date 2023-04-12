@@ -227,7 +227,7 @@ namespace ShadowStream
 				{
 					Properties.Settings.Default.audioDevice = audioDeviceComboBox.SelectedItem.ToString();
 				}
-			
+
 			}
 
 			if (Properties.Settings.Default.outputDevice != outputDeviceComboBox.SelectedItem.ToString())

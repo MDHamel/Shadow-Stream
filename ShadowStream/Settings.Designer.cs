@@ -28,6 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Settings));
 			SuspendLayout();
 			// 
 			// Settings
@@ -35,6 +36,7 @@
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
 			ClientSize = new Size(345, 183);
+			Icon = (Icon)resources.GetObject("$this.Icon");
 			Name = "Settings";
 			Text = "Settings";
 			FormClosed += Settings_FormClosed;

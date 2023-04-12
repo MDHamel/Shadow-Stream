@@ -80,7 +80,7 @@ namespace ShadowStream
 				Image muteIcon = Resources.muteIcon;
 
 				int x = pic.Width - muteIcon.Width - 40;
-				int y = pic .Height - muteIcon.Height - 40;
+				int y = pic.Height - muteIcon.Height - 40;
 
 				// Draw the mute icon image at the desired location
 				e.Graphics.DrawImage(muteIcon, x, y); // Adjust the location and size as needed
