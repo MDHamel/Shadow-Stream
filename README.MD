@@ -1,5 +1,7 @@
 # Shadow Stream
-##Audio Video Streaming Application
+
+## Audio Video Streaming Application
+
 This is an audio video streaming application that reads from a video and audio source, specifically designed for use with the "ShadowCast" capture card by Genki. The application allows for streaming at 1080p and 720p resolutions, with options for 30 or 60 frames per second (fps) when streaming at 720p, and 30fps when streaming at 1080p. The application is designed to provide a minimal video lag and slight audio lag to enhance the game viewing experience.
 
 ## Features
