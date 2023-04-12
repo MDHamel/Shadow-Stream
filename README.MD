@@ -14,6 +14,8 @@ This is an audio video streaming application that reads from a video and audio s
 
 ## Keyboard Controls
 
+- Double click video to go fullscreen
+- Use the mouse wheel to adjust volume
 - F1 - Opens the settings window
 - F5 or R - Refreshes the audio and video streams
 - Esc - Closes fullscreen
