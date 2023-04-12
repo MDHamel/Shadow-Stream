@@ -30,6 +30,10 @@ This is an audio video streaming application that reads from a video and audio s
 - .NET 6.0 or higher
 - Windows 7 or higher
 
+## Install
+
+Go to the latest release and extract the .zip onto your computer. Run the ShadowStream.exe to launch application.
+
 ## Known Issues
 
 - Possible audio or video syncing issues under certain conditions
