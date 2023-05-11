@@ -69,7 +69,7 @@ namespace ShadowStream
 			recorder.DeviceNumber = audioDeviceInIndex;
 			recorder.DataAvailable += recorder_DataAvailable;
 			recorder.WaveFormat = new WaveFormat(96000, 1);
-			bufferedWaveProvider = new BufferedWaveProvider(recorder.WaveFormat) { BufferDuration = TimeSpan.FromMilliseconds(200) };
+			bufferedWaveProvider = new BufferedWaveProvider(recorder.WaveFormat) { BufferDuration = TimeSpan.FromMilliseconds(400) };
 			bufferedWaveProvider.DiscardOnBufferOverflow = true;
 
 			recorder.StartRecording();

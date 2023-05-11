@@ -23,7 +23,7 @@ namespace ShadowStream
 		private bool isRunning = false;
 		private bool isFullscreen = false;
 
-		
+
 
 		private Form form;
 		private System.Drawing.Size prevSize;
@@ -129,45 +129,64 @@ namespace ShadowStream
 
 		private void stream()
 		{
-			//stream loop. while stream and app are running, keep stream updating
-			while (isRunning)
+			// Stream loop. While stream and app are running, keep stream updating
+			while (isRunning && videoFeed.IsOpened())
 			{
 				try
 				{
-					//get frame from video feed
-					Mat rawFrame = new Mat();
-					if (videoFeed.Read(rawFrame))
-					{
-						// Resize the frame on a separate thread
-						// Resizing helps reduce the lag and keep the 1080p resolution at different window sizes 
-						Task.Run(() =>
-						{
-							// Resize frame and dispose of old frame
-							Mat resizedFrame = new Mat();
-							Cv2.Resize(rawFrame, resizedFrame, new OpenCvSharp.Size(frameWidth, frameHeight), interpolation: InterpolationFlags.Cubic);
-							rawFrame.Dispose();
+					// Grab the next frame from the video feed
+					//videoFeed.Grab();
 
-							// Display the resized frame on the UI thread
-							pic?.Invoke(new Action(() =>
+					// Decode and return the grabbed frame as a Mat object
+					Mat rawFrame = new Mat();
+					videoFeed.Retrieve(rawFrame);
+
+					// Resize the frame on a separate thread
+					// Resizing helps reduce the lag and keep the 1080p resolution at different window sizes 
+					Task.Run(() =>
+					{
+						// Resize frame and dispose of old frame
+						Mat resizedFrame = new Mat();
+						Cv2.Resize(rawFrame, resizedFrame, new OpenCvSharp.Size(frameWidth, frameHeight), interpolation: InterpolationFlags.Lanczos4);
+						rawFrame.Release();
+						rawFrame.Dispose();
+
+						// Display the resized frame on the UI thread
+						pic?.BeginInvoke(new Action(() =>
+						{
+							try
 							{
 								if (pic.Image != null)
 								{
 									pic.Image.Dispose();
+									pic.Image = null;
 								}
 								pic.Image = resizedFrame.ToBitmap();
 								pic.Refresh();
-								resizedFrame.Dispose();
-							}));
 
-							// Dispose of the resized frame after it has been displayed
-						});
-					}
+
+							}
+							catch (Exception e)
+							{
+								Debug.WriteLine(e.Message);
+							}
+							finally
+							{
+								resizedFrame.Release();
+								resizedFrame.Dispose();
+							}
+
+							// Dispose of the resized frame after it has been
+							
+
+						}));
+
+					});
 				}
 				catch (Exception e)
 				{
 					Debug.WriteLine(e.Message);
 				}
-				Thread.Sleep(refreshRate);
 			}
 		}
 
@@ -175,8 +194,8 @@ namespace ShadowStream
 		{
 			isRunning = false;
 
-			fps = isFullscreen ? 30 : Properties.Settings.Default.fps;
-			refreshRate = (int)Math.Ceiling(1000f / fps);
+			fps = Properties.Settings.Default.fps;
+
 
 			frameHeight = Properties.Settings.Default.resolution;
 			frameWidth = frameHeight * 16 / 9;
@@ -209,7 +228,8 @@ namespace ShadowStream
 			videoFeed.Set(VideoCaptureProperties.Fps, fps);
 			videoFeed.Set(VideoCaptureProperties.FrameWidth, frameWidth);
 			videoFeed.Set(VideoCaptureProperties.FrameHeight, frameHeight);
-			videoFeed.Set(VideoCaptureProperties.BufferSize, 5);
+			videoFeed.Set(VideoCaptureProperties.BufferSize, 1);
+			videoFeed.Set(VideoCaptureProperties.BitRate, 5000000);
 			videoFeed.Set(VideoCaptureProperties.FourCC, FourCC.MJPG);
 
 			isRunning = true;
@@ -218,12 +238,6 @@ namespace ShadowStream
 			videoStreamThread.Start();
 
 		}
-
-		public void ScreenCap()
-		{
-			
-		}
-
 
 		public void Stop()
 		{
