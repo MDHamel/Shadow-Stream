@@ -17,6 +17,6 @@ C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\bin\Release\net6.
 C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\bin\Release\net6.0-windows\publish\OpenCvSharp.dll
 C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\bin\Release\net6.0-windows\publish\OpenCvSharp.Extensions.dll
 C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\bin\Release\net6.0-windows\publish\runtimes\win-x64\native\OpenCvSharpExtern.dll
-C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\bin\Release\net6.0-windows\publish\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\bin\Release\net6.0-windows\publish\runtimes\win-x64\native\opencv_videoio_ffmpeg470_64.dll
 C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\bin\Release\net6.0-windows\publish\runtimes\win-x86\native\OpenCvSharpExtern.dll
-C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\bin\Release\net6.0-windows\publish\runtimes\win-x86\native\opencv_videoio_ffmpeg460.dll
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\bin\Release\net6.0-windows\publish\runtimes\win-x86\native\opencv_videoio_ffmpeg470.dll

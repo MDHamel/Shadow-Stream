@@ -147,7 +147,7 @@ namespace ShadowStream
 					{
 						// Resize frame and dispose of old frame
 						Mat resizedFrame = new Mat();
-						Cv2.Resize(rawFrame, resizedFrame, new OpenCvSharp.Size(frameWidth, frameHeight), interpolation: InterpolationFlags.Lanczos4);
+						Cv2.Resize(rawFrame, resizedFrame, new OpenCvSharp.Size(frameWidth, frameHeight), interpolation: InterpolationFlags.Cubic);
 						rawFrame.Release();
 						rawFrame.Dispose();
 

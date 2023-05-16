@@ -54,9 +54,7 @@ C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\bin\Release\net6.
 C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\bin\Release\net6.0-windows\OpenCvSharp.dll
 C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\bin\Release\net6.0-windows\OpenCvSharp.Extensions.dll
 C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\bin\Release\net6.0-windows\runtimes\win-x64\native\OpenCvSharpExtern.dll
-C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\bin\Release\net6.0-windows\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll
 C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\bin\Release\net6.0-windows\runtimes\win-x86\native\OpenCvSharpExtern.dll
-C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\bin\Release\net6.0-windows\runtimes\win-x86\native\opencv_videoio_ffmpeg460.dll
 C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\obj\Release\net6.0-windows\ShadowStream.csproj.AssemblyReference.cache
 C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\obj\Release\net6.0-windows\ShadowStream.Properties.Resources.resources
 C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\obj\Release\net6.0-windows\ShadowStream.Settings.resources
@@ -72,3 +70,5 @@ C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\obj\Release\net6.
 C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\obj\Release\net6.0-windows\ShadowStream.pdb
 C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\obj\Release\net6.0-windows\ShadowStream.genruntimeconfig.cache
 C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\obj\Release\net6.0-windows\ref\ShadowStream.dll
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\bin\Release\net6.0-windows\runtimes\win-x64\native\opencv_videoio_ffmpeg470_64.dll
+C:\Users\thema_a837vdn\source\repos\Shadow Stream\ShadowStream\bin\Release\net6.0-windows\runtimes\win-x86\native\opencv_videoio_ffmpeg470.dll
