@@ -1,4 +1,5 @@
 ﻿using DirectShowLib;
+using NAudio.CoreAudioApi;
 using NAudio.Wave;
 using System;
 using System.Diagnostics;
@@ -74,6 +75,13 @@ namespace ShadowStream
 			{
 				videoDeviceComboBox.Items.Add(device.Name);
 			}
+
+			if(videoDeviceComboBox.Items.Count == 0)
+			{
+				videoDeviceComboBox.Items.Add("No Devices Found");
+
+			}
+
 			videoDeviceComboBox.SelectedIndex = 0;
 
 			// Enumerate audio capture devices
@@ -82,6 +90,13 @@ namespace ShadowStream
 			{
 				audioDeviceComboBox.Items.Add(device.Name);
 			}
+
+			if (audioDeviceComboBox.Items.Count == 0)
+			{
+				audioDeviceComboBox.Items.Add("No Devices Found");
+
+			}
+
 			audioDeviceComboBox.SelectedIndex = 0;
 
 			// Enumerate audio output devices
